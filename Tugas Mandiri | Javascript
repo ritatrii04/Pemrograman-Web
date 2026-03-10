@@ -1,0 +1,29 @@
+function cariHomestay(){
+
+let lokasi = document.getElementById("lokasi").value;
+let checkin = document.getElementById("checkin").value;
+let checkout = document.getElementById("checkout").value;
+
+if(lokasi === "" || checkin === "" || checkout === ""){
+alert("Silakan isi data pencarian terlebih dahulu");
+}else{
+
+alert(
+"Pencarian Homestay\n" +
+"Lokasi: " + lokasi +
+"\nCheck-in: " + checkin +
+"\nCheck-out: " + checkout
+);
+
+}
+
+}
+
+
+function openPopup(){
+document.getElementById("popupInfo").style.display="block";
+}
+
+function closePopup(){
+document.getElementById("popupInfo").style.display="none";
+}
