@@ -1,0 +1,154 @@
+<!DOCTYPE html>
+<html lang="id">
+<head>
+
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+<title>Booking Homestay</title>
+
+<link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css" rel="stylesheet">
+
+<style>
+
+body{
+background:#f4f7fb;
+font-family:Arial;
+}
+
+.navbar{
+background:#1a73e8;
+}
+
+.card-booking{
+border-radius:12px;
+box-shadow:0 4px 10px rgba(0,0,0,0.1);
+}
+
+.btn-book{
+background:#ff6b00;
+color:white;
+}
+
+.btn-book:hover{
+background:#e65c00;
+}
+
+</style>
+
+</head>
+
+<body>
+     <form action="./Tugas Mandiri/P1/index.html"></form>
+
+<nav class="navbar navbar-dark">
+
+<div class="container">
+
+<span class="navbar-brand">Homestay Bali</span>
+
+<a href="profile.html" class="btn btn-light">Profile</a>
+
+</div>
+
+</nav>
+
+
+<div class="container mt-5">
+
+<h3 class="text-center mb-4">Form Booking Homestay</h3>
+
+<div class="row justify-content-center">
+
+<div class="col-md-6">
+
+<div class="card card-booking">
+
+<div class="card-body">
+
+<form>
+
+<div class="mb-3">
+
+<label>Nama Lengkap</label>
+
+<input type="text" class="form-control">
+
+</div>
+
+<div class="mb-3">
+
+<label>Email</label>
+
+<input type="email" class="form-control">
+
+</div>
+
+<div class="mb-3">
+
+<label>Check-in</label>
+
+<input type="date" class="form-control">
+
+</div>
+
+<div class="mb-3">
+
+<label>Check-out</label>
+
+<input type="date" class="form-control">
+
+</div>
+
+<div class="mb-3">
+
+<label>Jenis Kamar</label>
+
+<select class="form-control">
+
+<option>Standard Room</option>
+<option>Deluxe Room</option>
+<option>Luxury Suite</option>
+
+</select>
+
+</div>
+
+<div class="mb-3">
+
+<label>Metode Pembayaran</label>
+
+<select class="form-control">
+
+<option>Transfer Bank</option>
+<option>E-Wallet</option>
+<option>Kartu Kredit</option>
+
+</select>
+
+</div>
+
+<button class="btn btn-book w-100">
+Konfirmasi Booking
+</button>
+
+</form>
+
+</div>
+
+</div>
+
+<div class="text-center mt-3">
+
+<a href="index.html">Kembali ke Halaman Utama</a>
+
+</div>
+
+</div>
+
+</div>
+
+</div>
+
+</body>
+</html>
